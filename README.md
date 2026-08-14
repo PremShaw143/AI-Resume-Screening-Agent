@@ -125,8 +125,10 @@ Job Description + Multiple Resumes
                   └────────────────────────┘
 
 
-## 🧠 AI & NLP
 
+```
+## 🧠 AI & NLP
+```text
 The system uses:
 
 - Sentence Transformers
@@ -136,11 +138,9 @@ The system uses:
 - LLM-based candidate analysis
 
 The numerical ATS score is calculated by the scoring engine. The LLM is used to explain the candidate's strengths, gaps, and recommendation.
-
----
-
+```
 ## 📊 ATS Scoring
-
+```text
 | Component | Weight |
 |---|---:|
 | Critical Skills | 45% |
@@ -149,6 +149,7 @@ The numerical ATS score is calculated by the scoring engine. The LLM is used to 
 | Experience | 15% |
 | Education | 10% |
 | **Total** | **100%** |
+```
 
 ### Formula
 
