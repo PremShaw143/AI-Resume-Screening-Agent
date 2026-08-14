@@ -1,0 +1,88 @@
+AI ENGINEER
+
+Location: Kolkata / Hybrid
+Employment Type: Full-Time
+Experience: 0–2 Years
+
+ABOUT THE ROLE
+
+We are looking for an AI Engineer to join our team and build, integrate, and deploy AI-powered applications. The ideal candidate should have strong Python programming skills and a good understanding of Machine Learning, Generative AI, LLMs, and modern AI application development.
+
+The candidate will work on AI solutions involving LLMs, RAG pipelines, embeddings, APIs, data processing, and model integration.
+
+KEY RESPONSIBILITIES
+
+• Develop and integrate AI and Machine Learning applications using Python.
+• Build LLM-powered applications using modern Generative AI techniques.
+• Design and implement Retrieval-Augmented Generation (RAG) pipelines.
+• Work with embeddings, vector databases, and semantic search.
+• Develop REST APIs for AI applications using FastAPI or similar frameworks.
+• Process, clean, and prepare data for AI and Machine Learning applications.
+• Integrate LLM APIs such as OpenAI, Anthropic, or Groq.
+• Evaluate model outputs and improve AI application performance.
+• Implement prompt engineering techniques for reliable LLM responses.
+• Work with document processing and information extraction pipelines.
+• Collaborate with software engineers and data teams to deploy AI solutions.
+• Write clean, maintainable, and well-documented Python code.
+
+REQUIRED SKILLS
+
+• Python
+• Machine Learning
+• Artificial Intelligence
+• Generative AI
+• LLM
+• RAG
+• NLP
+• FastAPI
+• REST API
+• SQL
+• Git
+• GitHub
+• Pandas
+• NumPy
+• Scikit-Learn
+
+PREFERRED SKILLS
+
+• LangChain
+• LangGraph
+• Vector Databases
+• FAISS
+• ChromaDB
+• Hugging Face
+• PyTorch
+• TensorFlow
+• Docker
+• AWS / GCP / Azure
+• Prompt Engineering
+• Sentence Transformers
+• Embeddings
+• Semantic Search
+
+EDUCATION
+
+• Bachelor's degree in Computer Science, Information Technology, Data Science, Artificial Intelligence, or a related field.
+
+EXPERIENCE
+
+• 0–2 years of experience in AI, Machine Learning, Software Engineering, or a related field.
+• Fresh graduates with strong AI/ML projects and internship experience are encouraged to apply.
+
+NICE TO HAVE
+
+• Experience building AI agents.
+• Experience with RAG-based applications.
+• Experience deploying AI applications using cloud platforms.
+• Knowledge of vector databases and retrieval systems.
+• Experience working with LLM APIs.
+• Experience building production-ready AI applications.
+
+WHAT WE LOOK FOR
+
+• Strong problem-solving and analytical skills.
+• Good Python programming fundamentals.
+• Understanding of Machine Learning and NLP concepts.
+• Ability to learn new AI technologies quickly.
+• Strong interest in Generative AI and LLM applications.
+• Good communication and teamwork skills.
