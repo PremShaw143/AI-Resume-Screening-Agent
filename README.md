@@ -216,23 +216,23 @@ Candidates are ranked first. Selecting a candidate shows that candidate's comple
 ## 📁 Project Structure
 
 ```text
-AI-Resume-Screening-Agent/
+ AI-Resume-Screening-Agent/
 │
-├── app.py                 # Streamlit application
+├── app.py                 # Streamlit web application
 ├── main.py                # CLI screening pipeline
-├── config.py              # Configuration and scoring settings
+├── config.py              # Configuration and scoring weights
 │
-├── extractor.py           # Resume and JD extraction
-├── matcher.py             # Skill matching and NLP similarity
-├── scorer.py              # ATS scoring and decisions
-├── explainer.py           # Rule-based explanations
-├── llm_explainer.py       # LLM hiring analysis
-├── reporter.py            # CSV / JSON reporting
+├── extractor.py           # JD and resume text/skill extraction
+├── matcher.py             # Skill matching and semantic similarity
+├── scorer.py              # Experience, education, and ATS scoring
+├── explainer.py           # Rule-based candidate explanations
+├── llm_explainer.py       # LLM-based hiring analysis
+├── reporter.py            # CSV and JSON report generation
 │
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .env.example
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+├── .gitignore             # Git ignored files
+├── .env.example           # Environment variable template
 │
 ├── resumes/
 │   ├── candidate_01.pdf
