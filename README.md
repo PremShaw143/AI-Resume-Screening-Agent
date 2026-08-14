@@ -269,7 +269,7 @@ Candidates are ranked first. Selecting a candidate shows that candidate's comple
 ### 1. Clone the Repository
 
 ```powershell
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/PremShaw143/AI-Resume-Screening-Agent.git
 cd AI-Resume-Screening-Agent
 ```
 
@@ -432,6 +432,12 @@ This project provides:
 - ✅ Batch processing of 10+ resumes
 
 ---
+### LLM Availability
+
+The numerical ATS screening pipeline does not depend on the LLM.
+If the LLM API is unavailable or rate-limited, the system still
+produces the ATS score, ranking, matched skills, missing skills,
+experience, and education analysis.
 
 ## ⚠️ Limitations
 
