@@ -213,6 +213,7 @@ Candidates are ranked first. Selecting a candidate shows that candidate's comple
 
 ---
 
+
 ## 📁 Project Structure
 
 ```text
@@ -246,6 +247,23 @@ Candidates are ranked first. Selecting a candidate shows that candidate's comple
 
 ---
 
+## ⚖️ Tradeoffs & Reasoning
+
+- **Rule-based skill matching:** Used for transparent and predictable skill scoring. It makes it easy to identify exactly which required and critical skills are matched or missing.
+
+- **Critical skill weighting:** Critical/core technologies receive the highest weight (45%) because missing an essential technology should have a larger impact on the final ATS score.
+
+- **Semantic similarity:** Sentence Transformers (`all-MiniLM-L6-v2`) with cosine similarity is used to compare the overall meaning of the Job Description and resume, rather than relying only on exact keywords.
+
+- **LLM for explanations:** The LLM is used to generate candidate summaries, strengths, gaps, and recommendations. It does not calculate the numerical ATS score, keeping the scoring process deterministic.
+
+- **PDF-first approach:** The current version focuses on PDF resumes to keep the system simple and reliable within the challenge time limit. OCR and DOCX support can be added later.
+
+- **Configurable skill database:** Skills are maintained in `config.py`, making the system easy to extend. A limitation is that uncommon or newly emerging skills may require adding them to the database.
+
+- **Fallback handling:** If the LLM API is unavailable or rate-limited, the ATS score and rule-based screening results can still be used for candidate evaluation.
+
+- **Batch processing:** Multiple resumes are processed in one screening session so candidates can be ranked consistently against the same Job Description.
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
